@@ -654,9 +654,3 @@ Configuração via `.env` ou arquivo de propriedades para:
 * **Supabase** – BaaS open source com Postgres, Auth, Storage e Realtime.([Wikipedia][3])
 * **Signed URL** – URL temporária para acessar um objeto de storage de forma segura.
 * **Realtime** – mecanismo do Supabase para receber eventos do banco em tempo quase real.([Supabase][1])
-
----
-
-[1]: https://supabase.com/docs/guides/storage?utm_source=chatgpt.com "Storage | Supabase Docs"
-[2]: https://www.permit.io/blog/supabase-authentication-and-authorization-in-nextjs-implementation-guide?utm_source=chatgpt.com "Supabase Authentication and Authorization in Next.js"
-[3]: https://en.wikipedia.org/wiki/Supabase?utm_source=chatgpt.com "Supabase"
