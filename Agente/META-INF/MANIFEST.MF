@@ -1,0 +1,55 @@
+Manifest-Version: 1.0
+Created-By: Maven JAR Plugin 3.3.0
+Build-Jdk-Spec: 25
+Class-Path: spring-boot-starter-web-3.2.5.jar spring-boot-starter-3.2.5.
+ jar spring-boot-3.2.5.jar spring-boot-autoconfigure-3.2.5.jar spring-bo
+ ot-starter-logging-3.2.5.jar logback-classic-1.4.14.jar logback-core-1.
+ 4.14.jar log4j-to-slf4j-2.21.1.jar log4j-api-2.21.1.jar jul-to-slf4j-2.
+ 0.13.jar jakarta.annotation-api-2.1.1.jar snakeyaml-2.2.jar spring-boot
+ -starter-json-3.2.5.jar jackson-datatype-jdk8-2.15.4.jar jackson-module
+ -parameter-names-2.15.4.jar spring-boot-starter-tomcat-3.2.5.jar tomcat
+ -embed-core-10.1.20.jar tomcat-embed-websocket-10.1.20.jar spring-web-6
+ .1.6.jar spring-beans-6.1.6.jar micrometer-observation-1.12.5.jar micro
+ meter-commons-1.12.5.jar spring-webmvc-6.1.6.jar spring-aop-6.1.6.jar s
+ pring-context-6.1.6.jar spring-expression-6.1.6.jar spring-boot-starter
+ -validation-3.2.5.jar tomcat-embed-el-10.1.20.jar hibernate-validator-8
+ .0.1.Final.jar jakarta.validation-api-3.0.2.jar jboss-logging-3.5.3.Fin
+ al.jar classmate-1.6.0.jar okhttp-4.11.0.jar okio-3.2.0.jar okio-jvm-3.
+ 2.0.jar kotlin-stdlib-common-1.9.23.jar kotlin-stdlib-1.9.23.jar annota
+ tions-13.0.jar kotlin-stdlib-jdk8-1.9.23.jar kotlin-stdlib-jdk7-1.9.23.
+ jar jackson-databind-2.15.0.jar jackson-annotations-2.15.4.jar jackson-
+ core-2.15.4.jar jackson-datatype-jsr310-2.15.0.jar dotenv-java-2.2.3.ja
+ r javafx-controls-21.0.2.jar javafx-controls-21.0.2-linux.jar javafx-fx
+ ml-21.0.2.jar javafx-fxml-21.0.2-linux.jar javafx-graphics-21.0.2.jar j
+ avafx-graphics-21.0.2-linux.jar javafx-base-21.0.2.jar javafx-base-21.0
+ .2-linux.jar javafx-web-21.0.2.jar javafx-web-21.0.2-linux.jar javafx-m
+ edia-21.0.2.jar javafx-media-21.0.2-linux.jar slf4j-api-2.0.13.jar spri
+ ng-core-6.1.6.jar spring-jcl-6.1.6.jar s3-2.26.15.jar aws-xml-protocol-
+ 2.26.15.jar aws-query-protocol-2.26.15.jar protocol-core-2.26.15.jar ar
+ ns-2.26.15.jar profiles-2.26.15.jar crt-core-2.26.15.jar http-auth-2.26
+ .15.jar identity-spi-2.26.15.jar http-auth-spi-2.26.15.jar reactive-str
+ eams-1.0.4.jar http-auth-aws-2.26.15.jar checksums-2.26.15.jar checksum
+ s-spi-2.26.15.jar retries-spi-2.26.15.jar sdk-core-2.26.15.jar retries-
+ 2.26.15.jar auth-2.26.15.jar eventstream-1.0.1.jar http-client-spi-2.26
+ .15.jar regions-2.26.15.jar annotations-2.26.15.jar utils-2.26.15.jar a
+ ws-core-2.26.15.jar metrics-spi-2.26.15.jar json-utils-2.26.15.jar thir
+ d-party-jackson-core-2.26.15.jar endpoints-spi-2.26.15.jar apache-clien
+ t-2.26.15.jar httpclient-4.5.13.jar commons-logging-1.2.jar httpcore-4.
+ 4.16.jar netty-nio-client-2.26.15.jar netty-codec-http-4.1.109.Final.ja
+ r netty-codec-http2-4.1.109.Final.jar netty-codec-4.1.109.Final.jar net
+ ty-transport-4.1.109.Final.jar netty-common-4.1.109.Final.jar netty-buf
+ fer-4.1.109.Final.jar netty-handler-4.1.109.Final.jar netty-transport-n
+ ative-unix-common-4.1.109.Final.jar netty-transport-classes-epoll-4.1.1
+ 09.Final.jar netty-resolver-4.1.109.Final.jar commons-compress-1.26.2.j
+ ar commons-codec-1.16.1.jar commons-io-2.16.1.jar commons-lang3-3.14.0.
+ jar zstd-jni-1.5.6-3.jar
+Implementation-Title: backup-agent
+Implementation-Version: 1.0.0
+Main-Class: com.example.backupagent.Main
+Start-Class: com.example.backupagent.server.FsApiApplication
+Spring-Boot-Version: 3.2.5
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Spring-Boot-Classpath-Index: BOOT-INF/classpath.idx
+Spring-Boot-Layers-Index: BOOT-INF/layers.idx
+
