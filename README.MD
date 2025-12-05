@@ -578,7 +578,7 @@ classDiagram
 npm install
 
 # configurar variáveis de ambiente
-cp .env.example .env.local
+cp .env .env.local   # ou crie .env.local com as variáveis exigidas
 # preencher:
 # NEXT_PUBLIC_SUPABASE_URL
 # NEXT_PUBLIC_SUPABASE_ANON_KEY
@@ -588,6 +588,14 @@ cp .env.example .env.local
 # rodar em modo dev
 npm run dev
 # acessar http://localhost:3000
+
+# exemplo de `.env.local`
+NEXT_PUBLIC_SUPABASE_URL=https://seu-projeto.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=chave-anon
+SUPABASE_SERVICE_ROLE_KEY=chave-service-role
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+NEXT_PUBLIC_BACKEND_URL=http://localhost:3000
+DEVICE_API_BASE_URL=http://localhost:3000
 ```
 
 ### 8.2 Agent (Java)
@@ -606,7 +614,7 @@ npm run dev
 mvn clean package
 
 # roda o agente (fat JAR)
-java -jar target/keeply-agent-*.jar
+java -jar target/backup-agent-*.jar
 
 # (opcional) UI JavaFX
 mvn javafx:run
