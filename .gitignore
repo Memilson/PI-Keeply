@@ -1,0 +1,133 @@
+########################################
+# Dependências
+########################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+########################################
+# Next.js
+########################################
+.next/
+out/
+build/
+dist/
+.vercel
+.turbo
+
+########################################
+# Environment & Secrets
+########################################
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Manter arquivo de exemplo
+!.env.example
+!.env.sample
+
+########################################
+# TypeScript
+########################################
+*.tsbuildinfo
+next-env.d.ts
+
+########################################
+# Testing
+########################################
+coverage/
+.nyc_output/
+*.lcov
+.jest-cache/
+
+########################################
+# Logs
+########################################
+*.log
+logs/
+*.log.*
+
+########################################
+# Sistema Operacional
+########################################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+########################################
+# IDEs e Editores
+########################################
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+########################################
+# Supabase
+########################################
+.supabase/
+
+########################################
+# Tailwind CSS
+########################################
+# Arquivos gerados são tracked, mas pode descomentar se necessário
+# **/*.css
+
+########################################
+# Temporary & Cache
+########################################
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+.eslintcache
+
+########################################
+# Backup & Old files
+########################################
+*.bak
+*.backup
+*.old
+*.orig
+
+########################################
+# Optional: Yarn
+########################################
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+########################################
+# Optional: Arquivos de lock alternativos
+########################################
+# Descomente caso use apenas um gerenciador
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
