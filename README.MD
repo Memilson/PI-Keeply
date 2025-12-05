@@ -614,10 +614,11 @@ mvn javafx:run
 
 Configuração via `.env` ou arquivo de propriedades para:
 
-* `KEEP_REPO_PATH` – diretórios protegidos.
-* `KEEP_DB_URL`, `KEEP_DB_USER`, `KEEP_DB_PASSWORD`.
-* `KEEP_S3_BUCKET`, `KEEP_S3_REGION`.
-* `KEEP_CHUNK_SIZE_MB`, `KEEP_COMPRESSION_LEVEL`.
+* `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `SUPABASE_EMAIL`/`SUPABASE_PASSWORD` (ou `SUPABASE_REFRESH_TOKEN`) – autenticação do agente no Supabase.
+* `KEEPLY_AGENT_KEY` – chave simétrica usada para criptografar o refresh token persistido.
+* `DEVICE_API_BASE_URL` – endpoint do painel/Next.js utilizado para ativação e polling de tarefas.
+* `BACKUP_STORAGE` (`s3` ou `local`) e `LOCAL_STORAGE_DIR` – controlam o destino dos contêineres.
+* `AWS_S3_BUCKET`, `AWS_S3_REGION`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` (e opcionais como `AWS_S3_UPLOAD_MANIFESTS`) – credenciais e parâmetros quando `BACKUP_STORAGE=s3`.
 
 ---
 
